@@ -9,7 +9,7 @@ import tkinter as tk
 
 window = tk.Tk()
 
-number_of_decks = 1
+number_of_decks = 3
 init_count = 4*number_of_decks
 init_count_str = str(init_count)
 
@@ -36,7 +36,7 @@ index_to_card = {0:"2",
                  20:"COUNT",
                  21:"0",
                  22:"CARDS LEFT",
-                 23:"52"}
+                 23:str(52*number_of_decks)}
                  
 
 
